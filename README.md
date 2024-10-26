@@ -11,5 +11,11 @@ The path search algorithm proposed and demonstrated is Rapidly Exploring Random 
 # Example:
 
 |                  Original Map                  | Filtered Map                                        | Planned Path |
-| :---------------------------------------------: | --------------------------------------------------- | ---------- |
-|   ![Original Map](demo/map.png){ width=400px }   | ![Filtered Map](demo/map_inverted.png){ width=400px } |![Planned Path](demo/map_path_RRT.png){ width=400px }|
+| --------------------------------------------- | --------------------------------------------------- | ---------- |
+| ![Original Map](demo/map.png) | ![Filtered Map](demo/map_inverted.png) | ![Planned Path](demo/map_path_RRT.png) |
+
+<style>
+    img {
+        width: 400px;
+    }
+</style>
