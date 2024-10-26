@@ -13,9 +13,3 @@ The path search algorithm proposed and demonstrated is Rapidly Exploring Random 
 |                  Original Map                  | Filtered Map                                        | Planned Path |
 | --------------------------------------------- | --------------------------------------------------- | ---------- |
 | ![Original Map](demo/map.png) | ![Filtered Map](demo/map_inverted.png) | ![Planned Path](demo/map_path_RRT.png) |
-
-<style>
-    img {
-        width: 400px;
-    }
-</style>
