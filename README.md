@@ -1,4 +1,15 @@
-# StarRail_navigation
+# StarRail_Navigation
+
+一个基于RRT算法的路径规划小demo。先将崩铁地图处理为黑白图，例如白色为角色可移动空间，选择一个起始点和目标点，用RRT算法生成路径并选择最短路线。
+
+使用：
+
+run `rrt.py`,在空白处选一个点作为起始点，再选一个点作为终点
+
+
+
+
+
 
 This is a navigation proposal and demonstration for StarRail. The main idea is to extract a clear map and convert it to black and white images.
 
@@ -10,6 +21,6 @@ The path search algorithm proposed and demonstrated is Rapidly Exploring Random 
 
 # Example:
 
-|                  Original Map                  | Filtered Map                                        | Planned Path |
-| --------------------------------------------- | --------------------------------------------------- | ---------- |
+| Original Map                | Filtered Map                         | Planned Path                         |
+| --------------------------- | ------------------------------------ | ------------------------------------ |
 | ![Original Map](demo/map.png) | ![Filtered Map](demo/map_inverted.png) | ![Planned Path](demo/map_path_RRT.png) |
